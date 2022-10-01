@@ -1,0 +1,54 @@
+*{
+	box-sizing: border-box;	
+}
+
+body{
+	background-color: #F5F5F5;
+	color:#022f78;
+	font-family: Helvetica, Verdana, Arial, Sans-serif;
+}
+a:hover{
+	font-style: italic;
+	color: deeppink;
+	font-weight: bold;
+}
+main{
+	background-color: #ebf5ff;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 1em 0em;
+	display: block;
+	overflow: auto;
+
+
+}
+
+main div, h1, h2, h3, h4, p{
+	padding-right: 2em;
+	padding-left: 2em;
+
+}
+header{
+	height: 150px;
+	text-align: center;
+	background-color: #FEF8EB;
+}
+footer{
+	height: 50px;
+	text-align: center;
+	background-color: #ddd5cf;
+}
+nav{
+	text-align: center;	
+	font-weight: bold; 
+	font-size: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: #ffa69e;
+	/*float: left;*/
+	/*width: inherit;*/ 
+}
+/* About Us Page */
+.teamMember-name {
+	font-weight: bold;
+}

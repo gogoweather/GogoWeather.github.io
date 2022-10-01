@@ -1,0 +1,35 @@
+--------- Waterfall
+
+
+pros: 
+	- linear sequence, logical order that shows a clear timeline that our team could roughly follow and scaffold productions around
+	- easy to plan 
+
+cons: 
+	- ideal for large teams: our group only has 4 people.
+	- independent: a team would work on their own task with little communication with others. This won't work for us since without communication, our project would fall apart.
+	- costly: requires a lot of research and planning that might turn out to be unnecessary to our project.
+	- requirements and details need to be finalized before project begins: we can't do this since we are still deciding various features, and expect many changes. 
+	- very difficult to backtrack, since details were "finalized" at start of project. 
+	- dependence on previous phase: our project might stall if we can't produce the previous part in time.
+
+
+
+--------- Agile
+
+pros: 
+	- flexible: our team members can work on various parts of the project as they see fit.  
+	- communication: since we only have 4 people, our communication can be more open and direct.
+	- people based: we can get to know each other's strengths and weaknesses, and help each other improve on various areas.
+	- simplicity: focusing on simplicity makes our project much more feasible. 
+	
+
+cons: 
+	- bugs: might be harder to find and fix
+	- missing features: with our current knowledge, we might not be able to add or build certain additional features.
+	- understaffed: have to figure out things on your own.
+	- optimization might not be priority  
+
+
+
+
