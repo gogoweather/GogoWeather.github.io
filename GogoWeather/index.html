@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Travel Site - Home</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/global.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1><a href="./index.html" class="logo">GoGo Weather</a></h1>
+            <div>
+                <a class="navHeadings navHeadings--active" href="./index.html">Home</a>
+                <a class="navHeadings" href="./pages/favourites.html">Favourite Cities</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="mainHero">
+            <div class="mainHero__title">
+                <h2>Vancouver</h2>
+                <h2 id="currentWeather"></h2>
+            </div>
+            <div class="mainHero__cardHolder">
+                <div class="itin">
+                    <p class="itin__day">Friday</p>
+                    <p class="itin__title">Temperature</p>
+                    <p id="day1Temp" class="itin__activity"></p>
+                    <p class="itin__title">Wind</p>
+                    <p id="day1Wind" class="itin__activity"></p>
+                </div>
+                <div class="itin">
+                    <p class="itin__day">Saturday</p>
+                    <p class="itin__title">Temperature</p>
+                    <p id="day2Temp" class="itin__activity"></p>
+                    <p class="itin__title">Wind</p>
+                    <p id="day2Wind" class="itin__activity"></p>
+                </div>
+                <div class="itin">
+                    <p class="itin__day">Sunday</p>
+                    <p class="itin__title">Temperature</p>
+                    <p id="day3Temp" class="itin__activity"></p>
+                    <p class="itin__title">Wind</p>
+                    <p id="day3Wind" class="itin__activity"></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mainDest">
+            <h3>Recommendations</h3>
+            <div class="mainDest__cardHolder">
+                <a href="./pages/favourites.html">
+                    <div class="mainDest__card mainDest__activity1">
+                    <p class="mainDest__label">Skiing</p>
+                    </div>
+                </a>
+                <a href="./pages/favourites.html">
+                    <div class="mainDest__card mainDest__activity2">
+                        <p class="mainDest__label">Hiking</p>
+                    </div>
+                </a>
+                <a href="./pages/favourites.html">
+                    <div class="mainDest__card mainDest__activity3">
+                        <p class="mainDest__label">Hot Springs</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+       <div class="footerItem">
+        <p class="footerItem__headings">Contact</p>
+        <div>
+            <p class="footerItem__subHeadings">Email</p>
+            <a href="mailto:info@gogoweather.com" class="footerItem__details">info@gogweather.com</a>
+        </div>
+   </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

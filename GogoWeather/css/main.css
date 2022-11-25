@@ -1,0 +1,117 @@
+/* Banner */
+.mainHero{
+    background-image: url('../assets/Images/vancouver.jpg');
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #335576;
+    padding: 5%;
+}
+.mainHero__title{
+    width: 60%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.75rem;
+    display: flex; 
+    justify-content: space-between;   
+}
+.mainHero__cardHolder{
+    gap: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itin{
+    border-radius: 5px;
+    background-color: #fff;
+    min-width: 270px;
+    max-width: 270px;
+    min-height: 350px;
+    max-height: 350px;
+    position: relative;
+    padding: 5px;
+}
+.itin__day{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-bottom: 2px solid #000;
+    margin: 5%;
+}
+.itin__title{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+.itin__activity{
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+/* Recommendation Cards */
+.mainDest{
+    padding: 5%;
+}
+.mainDest > h3 {
+    color: #335576;
+    font-weight: 700;
+    font-size: 1.85rem;
+}
+.mainDest__cardHolder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+}
+.mainDest__card{
+    border-radius: 5px;
+    border: 1px solid #a9a9a9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    min-width: 280px;
+    max-width: 280px;
+    min-height: 400px;
+    max-height: 400px;
+    position: relative;
+    
+}
+.destMain__vancouver{
+    background-image: url('../assets/Images/vancouver.jpg');
+    background-size: 100%;
+    background-position: center;
+}
+.mainDest__card > p{
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.55rem;
+    position: absolute;
+    bottom: -15px;
+    right: 20px;
+}
+.mainDest__activity1{
+    background-image: url('./../assets/Images/skiing.jpg');
+    background-size: 100%;
+    background-position: center;
+    border-radius: 10px;
+}
+.mainDest__activity2{
+    background-image: url('./../assets/Images/hiking.jpg');
+    background-size: 100%;
+    background-position: center;
+    border-radius: 10px;
+}
+.mainDest__activity3{
+    background-image: url('./../assets/Images/hotspring.jpg');
+    background-size: 100%;
+    background-position: center;
+    border-radius: 10px;
+}
