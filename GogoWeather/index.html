@@ -12,9 +12,15 @@
     <header>
         <nav>
             <h1><a href="./index.html" class="logo">GoGo Weather</a></h1>
-            <div>
-                <a class="navHeadings navHeadings--active" href="./index.html">Home</a>
-                <a class="navHeadings" href="./pages/favourites.html">Favourite Cities</a>
+            <div class="navHeadings__items">
+                <div>
+                    <a class="navHeadings navHeadings--active" href="./index.html">Username</a>
+                    <a class="navHeadings" href="./pages/favourites.html">Favourite Cities</a>
+                </div>
+                <form class="searchForm">
+                    <input class="searchForm__input" type="text" placeholder="search for a city...">
+                    <button class="searchForm__btn" type="submit">Search</button>
+                </form>
             </div>
         </nav>
     </header>
@@ -51,7 +57,7 @@
         </div>
         
         <div class="mainDest">
-            <h3>Recommendations</h3>
+            <h3>Recommended Activities to Try:</h3>
             <div class="mainDest__cardHolder">
                 <a href="./pages/favourites.html">
                     <div class="mainDest__card mainDest__activity1">
@@ -74,7 +80,7 @@
 
     <footer>
        <div class="footerItem">
-        <p class="footerItem__headings">Contact</p>
+        <p class="footerItem__headings">Contact Us</p>
         <div>
             <p class="footerItem__subHeadings">Email</p>
             <a href="mailto:info@gogoweather.com" class="footerItem__details">info@gogweather.com</a>

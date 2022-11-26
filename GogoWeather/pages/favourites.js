@@ -1,5 +1,5 @@
 function getCity1(){
-    axios.get('https://goweather.herokuapp.com/weather/hanoi')
+    axios.get('https://goweather.herokuapp.com/weather/hochimin')
     .then((res)=>{
         const weather = res.data;
         //Hanoi Weather
