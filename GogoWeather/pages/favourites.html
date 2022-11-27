@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Favourite Cities</title>
+    <link rel="stylesheet" href="../css/destinations.css">
+    <link rel="stylesheet" href="../css/global.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1><a href="../index.html" class="logo">GoGo Weather</a></h1>
+            <div class="navHeadings__item">
+                <div>
+                    <a class="navHeadings" href="../index.html">Username</a>
+                    <a class="navHeadings navHeadings--active" href="./favourites.html">Favourite Cities</a>
+                </div>
+                <form class="searchForm">
+                    <input class="searchForm__input" type="text" placeholder="search for a city...">
+                    <button class="searchForm__btn" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="destMain">
+            <h2 class="destTitle">Favourite Cities</h2>
+            <div class="destMain__cardHolder">
+                <div class="itin">
+                    <p class="itin__day">Hanoi</p>
+                    <p class="itin__title">Temperature</p>
+                    <p id="city1temp" class="itin__activity"></p>
+                    <p class="itin__title">Wind</p>
+                    <p id="city1wind" class="itin__activity"></p>
+                </div>
+                <div class="itin">
+                    <p class="itin__day">Patiala</p>
+                    <p class="itin__title">Temperature</p>
+                    <p id="city2temp" class="itin__activity"></p>
+                    <p class="itin__title">Wind</p>
+                    <p id="city2wind" class="itin__activity"></p>
+                </div>
+                <div class="itin">
+                    <p class="itin__day">Taipei</p>
+                    <p class="itin__title">Temperature</p>
+                    <p id="city3temp"class="itin__activity"></p>
+                    <p class="itin__title">Wind</p>
+                    <p id="city3wind" class="itin__activity"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footerItem">
+             <p class="footerItem__headings">Contact Us</p>
+             <div>
+                 <p class="footerItem__subHeadings">Email</p>
+                 <a href="mailto:info@gogoweather.com" class="footerItem__details">info@gogoweather.com</a>
+             </div>
+        </div>
+     </footer>
+     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="./favourites.js"></script>
+</body>
+</html>
